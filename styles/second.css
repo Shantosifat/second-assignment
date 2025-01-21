@@ -99,3 +99,108 @@ body{
     font-weight: 550;
     padding: 15px 34px;
     }
+
+    /* card 1 */
+    .second-page{
+        background-image: url(../images/assets/bg.png);
+        background-repeat: no-repeat;
+        padding: 60px 0px;
+    }
+    .sc{
+        font-size: 46px;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 80px;
+        margin-top: 60px;
+    }
+    .card-1{
+        justify-content: space-between;
+        gap: 29px;
+        text-align: center;
+        margin-bottom: 80px;
+    }
+    .kinder{
+        border: 0.94px solid rgb(222, 245, 255);
+        border-radius: 18px;
+        box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+        background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+        padding: 56px 40px 58px 40px;
+    }
+    .e-school{
+        padding: 65px 40px 58px 40px;
+        border: 0.94px solid rgb(255, 244, 220);
+        border-radius: 18px;
+        box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+        background: linear-gradient(180.00deg, rgb(255, 244, 220),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+    }
+    .middle{
+        padding: 65px 40px 58px 40px;
+        border: 0.94px solid rgb(242, 232, 255);
+        border-radius: 18px;
+        box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+        background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+    }
+    .card-title{
+        color: rgb(32, 32, 32);
+        font-size: 25px;
+        font-weight: 700;
+        margin-bottom: 33px;
+    }
+    .card-details{
+        color: rgb(128, 128, 128);
+        font-size: 14px;
+        font-weight: 500;
+        margin-bottom: 38px;
+    }
+    .read-btn{
+        font-size: 15px;
+        font-weight: 600;
+        
+    }
+    .arrows{
+        gap: 10px;
+        text-align: center;
+    }
+    .mama{
+        border-radius: 30px;
+        background: rgb(254, 163, 1);
+        border: none;
+        width: 60px;
+        height: 60px;
+        color: rgb(255, 255, 255);
+        font-family: Font Awesome 5 Free;
+        font-size: 24px;
+        font-weight: 900;
+    }
+
+    /* stories */
+    .some-stories{
+        justify-content: space-between;
+        gap: 20px;
+    }
+    .big-one{
+       width: 50%;
+       border-radius: 16px;
+    }
+    .big-img{
+        border-radius: 16px 16px 0px 0px;
+        background: rgb(217, 217, 217);
+        margin-bottom: 60px;
+    }
+    .big-title{
+        font-size: 24px;
+        font-weight: 700;
+        margin-bottom: 52px;
+    }
+    .big-details{
+        color: rgb(102, 102, 102);
+        font-family: Raleway;
+        font-size: 15.34px;
+        font-weight: 500;
+    }
+    .small-pics{
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 20px;
+        width: 50%;
+    }
