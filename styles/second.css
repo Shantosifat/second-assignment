@@ -1,11 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kode+Mono:wght@400..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-/* *{
-    margin: 0;
-    padding: 0;
-} */
+
+
 body{
     font-family: Quicksand;
-    /* margin: 0px 140px; */
 }
 .display-flex{
     display: flex;
@@ -66,7 +63,7 @@ body{
 /* banner */
 
 .banner{
-    /* align-items: center; */
+    
     justify-content: space-between;
     margin: 0px 140px;
 }
@@ -173,6 +170,10 @@ body{
     .arrows{
         gap: 10px;
         text-align: center;
+    
+    }
+    .arrows:hover{
+        color: red;
     }
     .arrow{
         border-radius: 30px;
@@ -205,8 +206,6 @@ body{
         
     }
     .big-one{
-       /* width: 50%; */
-       /* border-radius: 16px; */
        border-radius: 16px;
         background: rgb(255, 255, 255);
     }
@@ -214,6 +213,7 @@ body{
         border-radius: 16px 16px 0px 0px;
         background: rgb(217, 217, 217);
         width: 100%;
+        margin-bottom: -20px;
         
     }
     .big-title{
@@ -245,6 +245,7 @@ body{
     .tiny-pic{
         border-radius: 16px 16px 0px 0px;
         background:rgb(255, 255, 255);
+        margin-bottom: -20px;
     }
     .small-title{
         font-size: 15px;
@@ -352,65 +353,21 @@ body{
     ul a{
         text-decoration: none;
     }
-
-    /* footer */
-     /* .information{  */
-        /* width: 100%; */
-        /* justify-content: space-between;
-        padding: 100px 150px;
-        background: rgb(119, 22, 119);
-        gap: 300px;
-        
-    } 
-    .left-footer{
-        width: 50%;
-
-    }
-    .right-footer{
-        width: 50%;
-        gap: 100px;
-        justify-content: space-around;
-    }
-    .right-footer-1{
-        width: 25%;
-    }.right-footer-2{
-        width: 25%;
+    ul{
+        padding-left: 0px;
     }
 
-    .kid{
-        width: 70.34px;
-        height: 81.65px;
-    }
-    .kid-title{
-        color: rgb(255, 255, 255);
-        font-weight: 700;
-    }
-    .baby-p{
-        color: rgb(255, 255, 255);
-        font-size: 20px;
-        font-weight: 400;
-    }
-    
-    .school-info{
-        color: rgb(255, 255, 255);
-        font-size: 1rem;
-        font-weight: 700;
-    }
-    ul li{
-        color: whitesmoke;
-        list-style: none;
-        gap: 25px;
-
-    }
-    ul a{
-        text-decoration: none; */
-    }
     .hamburger{
         display: none;
     }
     .mobile-icon{
         display: none;
     }
+
+
+
+
+
 
 
     @media only screen and (max-width: 576px) {
@@ -478,6 +435,7 @@ body{
         .card-1{
             display: flex;
             flex-direction: column;
+            margin-bottom: 0px;
         }
         .arrows{
             display: none;
@@ -492,22 +450,31 @@ body{
             margin: 0px;
             padding: 0px;
         }
-        /* .os{
-            font-size: 2.7rem;
-            font-weight: 700;
-            text-align: center;
-            margin-top: 0px;
-        } */
+       
         .small-pics{
             grid-template-columns: repeat(2, 1fr);
             margin-bottom: 40px;
             
         }
+        .small-title{
+            margin: 30px 40px;
+            font-size: 9.75px;
+            font-weight: 700;
+        }
+        .tiny-pic{
+            /* width: 190px; */
+            width: 100%;
+        }
+        .green-btn{
+            margin-left: 20px;
+        }
+        .dark-blue{
+            margin-left: 20px;
+        }
 
         /* footer */
         .left-footer{
             width: 100%;
-            /* padding-right: 15px; */
         }
         .right-footer{
             flex-direction: column;
@@ -515,11 +482,7 @@ body{
         }
         .connect-info{
             flex-direction: column;
-            /* text-align: left; */
-            padding: 60px 15px 60px 22px;
+            padding: 60px 10px 60px 22px;
         }
             
-    
-
-
 }
